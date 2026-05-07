@@ -13,7 +13,7 @@ Personal portfolio website for showcasing my UX/UI design projects, product desi
 
 - HTML5
 - CSS3
-- JavaScript
+- Node.js
 - Git & GitHub
 - GitHub Pages
 
