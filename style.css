@@ -310,6 +310,11 @@ a {
   margin-bottom: 2rem;
 }
 
+.project-actions {
+  display: flex;
+  gap: 16px;
+}
+
 .btn-more {
   display: inline-flex;
   align-items: center;
