@@ -62,11 +62,14 @@ a {
   top: 0;
   z-index: 1000;
   width: 100%;
+  height: 75px;
   padding: 0rem 4rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  align-self: stretch;
   background-color: #2C2C2C;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.10);
 }
 
 .logo {
@@ -95,10 +98,10 @@ a {
 .btn-mail {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 5px;
   background: var(--Orange);
   color: var(--Text-Light);
-  padding: 0.5rem 1.25rem;
+  padding: 12px;
   border-radius: 0.5rem;
   font-weight: 600;
   transition: transform 0.3s, background 0.3s;
@@ -270,10 +273,13 @@ a {
 .project-card {
   background: var(--Beige);
   color: var(--Text-Dark);
-  border-radius: 1rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  overflow: hidden;
+  border-radius: 16px;
+  display: flex;
+  padding: 8px;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+  width: fit-content;
 }
 
 .project-image {
@@ -283,11 +289,14 @@ a {
 }
 
 .project-info {
-  padding: 4rem;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  padding: 16px 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  flex: 1 0 0;
 }
 
 .project-info h3 {
@@ -304,17 +313,19 @@ a {
 .btn-more {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 8 px;
   background: var(--Orange);
   color: var(--Text-Light);
   border: none;
-  padding: 0.75rem 1.5rem;
+  padding: 0 24px;
+  height: 56px;
   border-radius: 0.5rem;
   font-size: 1.1rem;
   font-weight: 600;
   cursor: pointer;
   transition: transform 0.2s;
   font-family: inherit;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.10);
 }
 
 .btn-more:hover {
@@ -413,7 +424,8 @@ a {
   background: var(--Orange);
   color: var(--Text-Light);
   border: none;
-  padding: 0.75rem 2rem;
+  padding: 0 24px;
+  height: 56px;
   border-radius: 0.5rem;
   font-size: 1.1rem;
   font-weight: 600;
